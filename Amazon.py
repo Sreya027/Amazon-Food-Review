@@ -5,8 +5,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 nltk.download('vader_lexicon')
 
-# Load the Amazon food review dataset
-data = pd.read_csv(r"D:\Reviews.csv")
 
 # Instantiate the Sentiment Intensity Analyzer
 sia = SentimentIntensityAnalyzer()
